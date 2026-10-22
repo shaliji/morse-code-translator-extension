@@ -1,0 +1,74 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  width: 320px;
+  margin: 0;
+  padding: 12px;
+  font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+label {
+  display: block;
+  margin: 8px 0 4px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  resize: vertical;
+  padding: 7px 8px;
+  font: 13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  border-radius: 6px;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  background: color-mix(in srgb, canvas 92%, transparent);
+  color: canvastext;
+}
+
+#warning {
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  background: color-mix(in srgb, #f59e0b 18%, canvas);
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 6px 4px;
+  font: inherit;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  background: canvas;
+  color: canvastext;
+  cursor: pointer;
+}
+
+button:hover {
+  background: color-mix(in srgb, Highlight 18%, canvas);
+}
+
+footer {
+  margin-top: 12px;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer a {
+  color: Highlight;
+}
